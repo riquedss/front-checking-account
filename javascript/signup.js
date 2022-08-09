@@ -26,7 +26,7 @@ function enviar(botaoEnviar){
     }
 }
 
-function signup(user) {
+function signup(user, form) {
     const fetchConfig = {
         method: "POST",
         body: JSON.stringify({ user: user }),
