@@ -1,0 +1,59 @@
+.contas {
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-name {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.contas-name {
+    color:rgb(46, 58, 66);
+    font-size: 30px;   
+}
+
+.solicitar {
+    display: flex;
+    justify-content: center;
+}
+
+.solicitar-text {
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.img-mais{
+    width: 30px;
+    height: 30px;
+}
+
+.container-conta {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    overflow-y: scroll;
+    gap: 5px;
+}
+
+.conta-inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid rgba(0, 0, 0, 0.25);
+    height: 40px;
+    border-radius: 15px;
+}
+
+.conta-inf:hover {
+    background: rgba(0, 0, 0, 0.25);
+}

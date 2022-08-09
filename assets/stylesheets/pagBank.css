@@ -1,0 +1,198 @@
+header {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #2753b3;
+}
+
+.logo {
+    font-size: 60px;
+    color: #ffff;
+}
+
+.header-botoes {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+.btn-header {
+    width: 60px;
+    height: 30px;
+}
+
+.main {
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.saldo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.side-main-title {
+    color: black;
+    font-size: 40px;
+}
+
+.saldo-area {
+    font-size: 25px;
+}
+
+.side-main {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background: rgba(49, 45, 45, 0.25);
+}
+
+.containaer-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    width: 300px;
+}
+
+.atm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.atm-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    gap: 10px;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 200px;
+    gap: 3px;
+    overflow:auto;
+    border: #fff8f8 solid;
+    
+}
+
+.log-caixa {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.log-inf {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: #000000 1px solid;
+    background-color: #ffffff;
+
+}
+
+.log-valor {
+    display: flex;
+    justify-content: center;
+}
+
+.deposito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    width: 300px;
+    box-shadow: 10px 4px 4px rgba(153, 130, 130, 0.25);
+    border-radius: 15px;
+    background-color: rgb(238, 238, 238);
+}
+
+.form-transfer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.saldo {
+    font-size: 30px;
+    color: #000000;
+}
+
+.btn-depositar {
+    height: 30px;
+    width: 50px;
+}
+
+.title-deposito-area {
+    display: flex;
+    justify-content: center;
+}
+
+.title-deposito {
+    font-size: 30px;
+}
+
+.container-operacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(59, 71, 78);
+    box-shadow: 10px 4px 4px rgba(153, 130, 130, 0.25);
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.operacao {
+    background-color: rgb(238, 238, 238);
+    box-shadow: 10px 4px 4px rgba(153, 130, 130, 0.25);
+    border-radius: 15px;
+    height: 50px;
+}
+
+.operacao:hover {
+    background: rgba(255, 255, 255, 0.25);
+}

@@ -1,0 +1,14 @@
+.solicitar {
+    display: flex;
+    gap: 10px;
+}
+
+.contas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-conta {
+    width: 300px;
+}
