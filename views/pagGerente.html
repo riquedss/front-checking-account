@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="/assets/stylesheets/application.css">
+    <link rel="stylesheet" href="/assets/stylesheets/login.css">
+    <link rel="stylesheet" href="/assets/stylesheets/pagUser.css">
+    <link rel="stylesheet" href="/assets/stylesheets/pagGerente.css">
+    <title>PagUser</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">
+            Bank Mobits
+        </h1>
+    </header>
+    <main class="main">
+        <section class="contas" onmouseleave="deleteMensage(this)">
+            <div class="div-name">
+                <h2 class="contas-name">Solicitações de conta</h2>
+            </div>
+            <div class="solicitar">
+                <form action="">
+                    <input type="text" placeholder="CONTA">
+                </form>
+                <button type="button" onclick="aceitar(this)">aceitar</button>   
+            </div>
+            <p class="response"></p>
+            <div class="container-conta">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer-box">
+            <div class="footer-title">
+                <img  class="footer-logo" src="/assets/images/Vector.png" alt="">
+                <h3 class="text-title">Transfer Money</h3>
+            </div>
+            <p class="text-footer">Sending money around the world is easy. Find out how you can make transfers from Georgia to your loved ones online</p>
+        </section>
+        <div class="next">
+            <img src="/assets/images/Next.png" alt="">
+        </div>
+        <section class="footer-box">
+            <div class="footer-title">
+                <img class="footer-logo" src="/assets/images/Shield.png" alt="">
+                <h3 class="text-title">Safe Transfer</h3>
+            </div>
+            <p class="text-footer">Sending money around the world is easy. Find out how you can make transfers from Georgia to your loved ones online</p>
+        </section>
+        <div class="next">
+            <img src="/assets/images/Next.png" alt="">
+        </div>
+        <section class="footer-box">
+            <div class="footer-title">
+                <img class="footer-logo" src="/assets/images/Vector3.png" alt="">
+                <h3 class="text-title">Real Friendship</h3>
+            </div>
+            <p class="text-footer">Sending money around the world is easy. Find out how you can make transfers from Georgia to your loved ones online</p>
+        </section>
+    </footer>
+    <script src="/javascript/pagGerente.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/stylesheets/reset.css">
+    <link rel="stylesheet" href="/assets/stylesheets/application.css">
+    <link rel="stylesheet" href="/assets/stylesheets/pagUser.css">
+    <link rel="stylesheet" href="/assets/stylesheets/pagBank.css">
+    <title>PagBank</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">
+            Bank Mobits
+        </h1>
+        <div class="header-botoes">
+            <div class="header-inf">
+                <h2 class="name"></h2>
+                <h2 class="cpf"></h2>
+                <h2 class="conta"></h2>
+            </div>
+            <button class="btn-header" type="button" onclick="sair(this)">Sair</button>
+            <button class="btn-header" type="button" onclick="voltar(this)">Voltar</button>
+        </div>
+    </header>
+    <section class="main">
+        <side class="side">
+            <div class="saldo-div">
+                <h2 class="saldo-area">Saldo atual:</h2>
+                <p class="saldo"></p>
+            </div>
+            <main class="side-main">
+                <div>
+                    <h1 class="side-main-title">Operações</h1>
+                </div>
+                <div class="botoes">
+                    <button class="btn-opcao-deposito" type="button" onclick="deposito(this)">Depositar</button>
+                    <button class="btn-opcao-saque" type="button" onclick="saque(this)">Sacar</button>
+                    <button class="btn-opcao-tranfer" type="button" onclick="transferencia(this)">Transferir</button>
+                    <button class="btn-opcao-gerente" type="button" onclick="solicitaGerente(this)">Solicitar visita do gerente</button>
+                    <button class="btn-opcao-usuario" type="button" onclick="trocaUsuario(this)">Trocar de usuário</button>
+                </div>
+            </main>
+        </side>
+        <main class="atm">
+            <div class="atm-box">
+                <img class="img-box" src="/assets/images/Image.png" alt="imagem">
+            </div>
+            <div class="log">
+                <div class="log-caixa">
+                    <div class="log-inf">
+                        <h3>Descrição</h3>
+                        <p>valor</p>
+                        <p>Data</p>
+                        <p>Hora</p>
+                    </div>
+                </div>
+            </div>
+        </main> 
+    </section>  
+    <script src="/javascript/pagBank.js"></script>
+</body>
+</html>
